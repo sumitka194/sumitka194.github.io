@@ -1,0 +1,85 @@
+body {
+    /* margin: 0px; */
+    /* padding: 0%; */
+    background-color: #FCFCFC;
+    color: #46484d;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.heading {
+    background-color: #3FB1BD;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading-name {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.sub-heading {
+    font-size: 20px;
+    color: white;
+}
+
+.about {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.about-image {
+    margin-left: 25px;
+    padding-right: 15px;
+}
+
+.about-text {
+    margin-right: 25px;
+    padding-left: 15px;
+    font-size: 1.2rem;
+}
+
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+}
+
+.profile-image {
+    border-radius: 50%;
+}
+
+.skills {
+    
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6F568F;
+    color: white;
+    margin-top: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact-icon {
+    color: white;
+    padding-left: 8px;
+}
