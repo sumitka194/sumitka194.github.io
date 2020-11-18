@@ -14,6 +14,10 @@ a {
     color: black;
 }
 
+p {
+    text-align: justify;
+}
+
 .heading {
     background-color: #3FB1BD;
     padding: 5rem;
@@ -37,17 +41,33 @@ a {
     margin-top: 25px;
     margin-bottom: 25px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .about-image {
-    margin-left: 25px;
-    padding-right: 15px;
+    /* margin-left: 25px;
+    padding-right: 15px; */
+    /* width: 100%;
+    height: auto; */
+}
+
+.profile-image {
+    border-radius: 50%;
 }
 
 .about-text {
     margin-right: 25px;
     padding-left: 15px;
     font-size: 1.2rem;
+    flex: 200px;
+}
+
+.about-text-header {
+}
+
+.skills {
+    
 }
 
 .chip {
@@ -58,14 +78,6 @@ a {
     line-height: 50px;
     border-radius: 25px;
     background-color: #f1f1f1;
-}
-
-.profile-image {
-    border-radius: 50%;
-}
-
-.skills {
-    
 }
 
 .footer {
