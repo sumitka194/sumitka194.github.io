@@ -63,8 +63,19 @@ p {
     flex: 200px;
 }
 
-.about-text-header {
+.about-header {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
 }
+
+.about-header-text {
+    display: block;
+}
+
+/* .about-content {
+    margin: 0px;
+} */
 
 .skills {
     
