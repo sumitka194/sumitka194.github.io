@@ -6,6 +6,7 @@
         <meta name="author" content="Sumit Kumar">
         <meta name="keywords" content="web development, javascript, react, redux, graphQL, react native, noida, India">
         <link href="styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Sumit Kumar Portfolio</title>
     </head>
@@ -21,56 +22,52 @@
                     <p class="sub-heading"><i>I am a fullstack Javascript developer</i></p>
                 </section>
             </article>
-            <article class="about">
-                <section class="about-image">
-                    <img class="profile-image" src="https://via.placeholder.com/300x300.png">
-                </section>
-                <section class="about-text">
-                    <div class="about-header">
-                        <span class="about-header-text">About Me</span>
-                    </div>
-                    <p class="about-content">
-                        Hi, I am Sumit - a fullstack Javascript developer from Noida, India. I have graduated in Information & Technology &
-                        currently working in Successive Technologies.
-                    </p>
-                    <p>
-                        I am always excited to take new challenge, search different approaches to solve the problems and learn new technologies
-                        and ready to contribute and share my knowledge with my team members. 
-                    </p>
-                    <!-- <p>
-                        Code should be written in a way so that other developers find it easy to start with, therefore maintaing code quality
-                        like linting, comments makes the code easy to understand and debug, while unit test cases helps to focus on current
-                        feature without worring about breaking the old one.
-                    </p> -->
-                </section>
-            </article>
-            <article class="skills">
-                <div class="about-header">
-                    <span class="about-header-text">Skills</span>
+            <div class="app-main-area">
+                <div class="middle-section">
+                    <article class="about vertical-spacing">
+                        <img class="profile-image" src="https://via.placeholder.com/300x300.png">
+                        <section class="about-text">
+                            <h2 class="center-text">About Me</h2>
+                            <p class="about-content">
+                                Hi, I am Sumit - a fullstack Javascript developer from Noida, India. I have graduated in Information & Technology &
+                                currently working in Successive Technologies.
+                            </p>
+                            <p>
+                                I am always excited to take new challenge, search different approaches to solve the problems and learn new technologies
+                                and ready to contribute and share my knowledge with my team members. 
+                            </p>
+                            <!-- <p>
+                                Code should be written in a way so that other developers find it easy to start with, therefore maintaing code quality
+                                like linting, comments makes the code easy to understand and debug, while unit test cases helps to focus on current
+                                feature without worring about breaking the old one.
+                            </p> -->
+                        </section>
+                    </article>
+                    <article class="skills">
+                        <h2 class="center-text">Skills</h2>
+                        <ul class="chip">
+                            <li>Javascript</li>
+                            <li>React</li>
+                            <li>React Native</li>
+                            <li>GraphQL</li>
+                            <li>Node</li>
+                            <li>Express</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </article>
+                    <article class="intresets vertical-spacing">
+                        <h2 class="center-text">Interest</h2>
+                        <ul class="chip">
+                            <li>Docker</li>
+                            <li>Kubernetes</li>
+                            <li href="https://brigade.sh/">Brigade</li>
+                            <li>Helm</li>
+                        </ul>
+                    </article>
                 </div>
-                <ul>
-                    <li class="chip">Javascript</li>
-                    <li class="chip">React</li>
-                    <li class="chip">React Native</li>
-                    <li class="chip">GraphQL</li>
-                    <li class="chip">Node</li>
-                    <li class="chip">Express</li>
-                    <li class="chip">MongoDB</li>
-                </ul>
-            </article>
-            <article class="intresets">
-                <div class="about-header">
-                    <span class="about-header-text">Interest</span>
-                </div>
-                <ul>
-                    <li class="chip">Docker</li>
-                    <li class="chip">Kubernetes</li>
-                    <li href="https://brigade.sh/" class="chip">Brigade</li>
-                    <li class="chip">Helm</li>
-                </ul>
-            </article>
+            </div>
         </main>
-        <footer class="footer">
+        <footer class="footer vertical-spacing">
             <section>
                 <p>You can find me here</p>
                 <a href="https://twitter.com/SumitMi85448507" target="_blank">

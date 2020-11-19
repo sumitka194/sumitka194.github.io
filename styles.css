@@ -1,6 +1,5 @@
+/* Common CSS starts */
 body {
-    /* margin: 0px; */
-    /* padding: 0%; */
     background-color: #FCFCFC;
     color: #46484d;
 }
@@ -17,6 +16,17 @@ a {
 p {
     text-align: justify;
 }
+
+.center-text {
+    text-align: center;
+}
+
+.vertical-spacing {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Common CSS ends */
 
 .heading {
     background-color: #3FB1BD;
@@ -37,51 +47,42 @@ p {
     color: white;
 }
 
-.about {
-    margin-top: 25px;
-    margin-bottom: 25px;
+.app-main-area {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.about-image {
-    /* margin-left: 25px;
-    padding-right: 15px; */
-    /* width: 100%;
-    height: auto; */
+.middle-section {
+    max-width: 800px;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .profile-image {
     border-radius: 50%;
+    padding-right: 15px;
 }
 
 .about-text {
-    margin-right: 25px;
     padding-left: 15px;
+    padding-right: 15px;
     font-size: 1.2rem;
     flex: 200px;
-}
-
-.about-header {
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-}
-
-.about-header-text {
-    display: block;
 }
 
 /* .about-content {
     margin: 0px;
 } */
 
-.skills {
+/* .skills {
     
-}
+} */
 
-.chip {
+.chip li {
     display: inline-block;
     padding: 0 25px;
     height: 50px;
@@ -97,9 +98,6 @@ p {
     align-items: center;
     background-color: #6F568F;
     color: white;
-    margin-top: 25px;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .contact-icon {
