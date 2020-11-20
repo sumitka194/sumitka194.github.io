@@ -1,4 +1,12 @@
 /* Common CSS starts */
+:root {
+    --primary: #3FB1BD;
+    --secondary: #6F568F;
+    --black: #000;
+    --white: #fff;
+    --chip:  #f1f1f1;
+}
+
 body {
     background-color: #FCFCFC;
     color: #46484d;
@@ -10,7 +18,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: black;
+    color: var(--black);
 }
 
 p {
@@ -28,7 +36,7 @@ p {
 /* Common CSS ends */
 
 .heading {
-    background-color: #3FB1BD;
+    background-color: var(--primary);
     padding: 5rem;
     display: flex;
     flex-direction: column;
@@ -38,12 +46,12 @@ p {
 .heading-name {
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: var(--white);
 }
 
 .sub-heading {
     font-size: 20px;
-    color: white;
+    color: var(--white);
 }
 
 .app-main-area {
@@ -89,18 +97,18 @@ p {
     font-size: 16px;
     line-height: 50px;
     border-radius: 25px;
-    background-color: #f1f1f1;
+    background-color: var(--chip);
 }
 
 .footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #6F568F;
-    color: white;
+    background-color: var(--secondary);
+    color: var(--white);
 }
 
 .contact-icon {
-    color: white;
+    color: var(--white);
     padding-left: 8px;
 }
