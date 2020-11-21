@@ -54,13 +54,9 @@ p {
     color: var(--white);
 }
 
-.app-main-area {
-    display: flex;
-    justify-content: center;
-}
-
 .middle-section {
     max-width: 800px;
+    margin: 0 auto;
 }
 
 .about {
@@ -87,8 +83,29 @@ p {
 } */
 
 /* .skills {
-    
+    background-color: var(--primary);
 } */
+
+.skills-section {
+    background-color: var(--primary);
+}
+
+.skills-block {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.skills-block > * {
+    max-width: 250px;
+}
+
+.skill-icon {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+}
 
 .chip li {
     display: inline-block;
