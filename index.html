@@ -88,6 +88,25 @@
       color: #aaa;
       border-top: 1px solid #444;
     }
+    /* Back to Top Button */
+    #backToTop {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background: #222;
+      color: #fff;
+      border: none;
+      padding: 0.6rem 1rem;
+      border-radius: 30px;
+      cursor: pointer;
+      display: none;
+      font-size: 0.9rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+    body.dark #backToTop {
+      background: #ddd;
+      color: #222;
+    }
     .dark-toggle {
       position: fixed;
       top: 1rem;
@@ -196,9 +215,27 @@ Continuous Growth: Passionate about adopting new technologies, solving new chall
     <p>© 2025 Sumit Kumar.</p>
   </footer>
 
+  <!-- Back to Top Button -->
+  <button id="backToTop" onclick="scrollToTop()">⬆ Back to Top</button>
+
   <script>
     function toggleDarkMode() {
       document.body.classList.toggle('dark');
+    }
+
+    // Show button when scrolled down
+    window.onscroll = function() {
+      const backToTop = document.getElementById('backToTop');
+      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        backToTop.style.display = 'block';
+      } else {
+        backToTop.style.display = 'none';
+      }
+    };
+
+    // Scroll to top smoothly
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   </script>
 
